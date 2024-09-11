@@ -1,5 +1,6 @@
 
 import { Profile, Gallery } from "./componets/Gallery"
+import TodoList from "./todolist/TodoList";
 
 
 export default function Home() {
@@ -10,6 +11,9 @@ export default function Home() {
 
         <h1>hola</h1>
         <Profile src={""} alt={"No hay imagen"}></Profile>
+        <div >
+          <TodoList/>
+        </div>
       </main>
     </div>
   );
